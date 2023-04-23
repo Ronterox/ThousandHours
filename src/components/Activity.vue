@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { computed, initCustomFormatter, ref } from "vue";
+import { ref } from "vue";
 
-const props = defineProps({
+defineProps({
 	name: {
 		type: String,
 		required: true,
@@ -11,11 +11,11 @@ const props = defineProps({
 		required: true,
 	},
 	points: {
-		type: Number,
+		type: Number || String,
 		required: true,
 	},
 	totalTime: {
-		type: Number,
+		type: Number || String,
 		required: true,
 	},
 	image: {

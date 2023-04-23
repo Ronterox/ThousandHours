@@ -17,6 +17,7 @@ const IMAGES = {
 		<Activity :image="IMAGES.devlog" name="Devlog" :steps="['Select a time', 'Devlog', 'Complete']" :points="1000" :totalTime="3600" />
 		<Activity :image="IMAGES.meditation" name="Meditation" :steps="['Select a time', 'Meditate', 'Complete']" :points="500" :totalTime="3600" />
 		<Activity :image="IMAGES.nap" name="Nap" :steps="['Select a time', 'Nap', 'Complete']" :points="700" :totalTime="3600" />
+		<Activity name="Sudden Task" :steps="['???']" points="???" totalTime="???" />
 	</div>
 </template>
 
